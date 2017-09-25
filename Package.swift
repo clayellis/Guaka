@@ -3,7 +3,9 @@ import PackageDescription
 
 let package = Package(
   name: "Guaka",
-  dependencies: [.package(url: "https://github.com/clayellis/StringScanner.git", from: "0.3.0")],
+  dependencies: [
+    .package(url: "https://github.com/clayellis/StringScanner.git", from: "0.3.1")
+    ],
   targets: [
     .target(name: "Guaka")
   ]
